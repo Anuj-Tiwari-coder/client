@@ -5,6 +5,8 @@ import User from './components/Get user/User'
 import Adduser from './components/Add user/adduser'
 import Updateuser from './components/Update/Updateuser'
 
+console.log(import.meta.env.Vite_DOCUMENTATION_LINK )
+
 
 function App() {
   const route = createBrowserRouter([
